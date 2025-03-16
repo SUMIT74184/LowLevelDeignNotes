@@ -1,0 +1,12 @@
+package HandleNullObject;
+
+public class Car implements Vehicles{
+    public int getTankCapacity(){
+        return 40;
+    }
+
+    @Override
+    public int getSeatingCapacity() {
+        return 5;
+    }
+}

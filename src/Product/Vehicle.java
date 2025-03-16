@@ -1,4 +1,5 @@
-package LLDCarRentalZoom.Product;
+package  Product;
 
 public class Vehicle {
+
 }

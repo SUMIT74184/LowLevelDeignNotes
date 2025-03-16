@@ -1,4 +1,6 @@
 package LLDCarRentalZoom.Product;
 
-public enum Staus {
+public enum Status {
+    ACTIVE,
+    INACTIVE;
 }
