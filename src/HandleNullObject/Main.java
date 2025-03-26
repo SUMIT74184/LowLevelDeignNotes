@@ -5,6 +5,7 @@ import LLDCarRentalZoom.Product.Vehicle;
 public class Main {
     public static void main(String[] args) {
         Vehicles vehicles= vehicleFactory.getVehicleObject("Car");
+//        Vehicles vehicles= vehicleFactory.getVehicleObject("Bike");
         printVehicleDetails(vehicles);
     }
     private static void printVehicleDetails(Vehicles vehicles){
